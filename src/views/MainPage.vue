@@ -91,18 +91,18 @@ export default {
 }
 
 .title-section h1 {
-  font-size: 3.5em; /* Увеличиваем размер шрифта заголовка */
+  font-size: 3.5em;
   color: #024d98;
-  font-weight: 900; /* Увеличиваем жирность */
+  font-weight: 900;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   margin: 0;
-  letter-spacing: 2px; /* Увеличиваем расстояние между буквами */
+  letter-spacing: 2px;
 
 }
 
 .text-section {
   width: 120%;
-  background-color: rgba(255, 255, 255, 0.9); /* Полупрозрачный белый фон */
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 30px;
   border-radius: 8px;
   margin-bottom: 20px;

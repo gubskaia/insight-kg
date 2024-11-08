@@ -9,8 +9,8 @@ import MainPage from "@/views/MainPage.vue";
 const routes = [
     {
         path: '/',
-        name: 'MainPage', // Имя маршрута
-        component: MainPage // Ваш компонент для главной страницы
+        name: 'MainPage',
+        component: MainPage
     },
     {
         path: '/initiatives',

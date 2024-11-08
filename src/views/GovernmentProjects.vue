@@ -1,10 +1,8 @@
 <template>
   <div class="civic-initiatives-page">
-    <!-- Белый фон, который накрывает картинку -->
     <div class="white-overlay">
       <h2 class="title">Государственные проекты</h2>
 
-      <!-- Синий прямоугольник с фильтрами -->
       <div class="filter-bar">
         <select class="dropdown">
           <option>Категории</option>
@@ -35,7 +33,6 @@
         <button class="search-button">Поиск</button>
       </div>
 
-      <!-- Карточки проектов -->
       <div class="projects-container">
         <div class="project-card">
           <img src="@/assets/proj4.jpg" alt="Project Image" class="project-image" />
@@ -58,7 +55,6 @@
           </div>
         </div>
 
-        <!-- Дополнительные карточки -->
         <div class="project-card">
           <img src="@/assets/proj5.jpg" alt="Project Image" class="project-image" />
           <div class="project-info">
@@ -103,7 +99,6 @@
 
       </div>
 
-      <!-- Пагинация -->
       <div class="pagination">
         <button class="page-button">‹</button>
         <button class="page-button">›</button>
@@ -185,7 +180,6 @@ export default {
   background-color: #003b8b;
 }
 
-/* Стили для карточек */
 .projects-container {
   display: flex;
   flex-wrap: wrap;
@@ -204,8 +198,8 @@ export default {
 }
 
 .project-card:hover {
-  transform: translateY(-10px); /* Поднимается при наведении */
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Усиление тени */
+  transform: translateY(-10px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .project-image {
@@ -232,7 +226,6 @@ export default {
   margin-bottom: 5px;
 }
 
-/* Стили для голосов в нижнем правом углу */
 .project-votes {
   position: absolute;
   bottom: 10px;
@@ -255,8 +248,8 @@ export default {
 }
 
 .like:hover, .dislike:hover {
-  transform: scale(1.1);  /* Увеличение при наведении */
-  color: #0056b3;  /* Изменение цвета при наведении */
+  transform: scale(1.1);
+  color: #0056b3;
 }
 
 .like-icon, .dislike-icon {
@@ -266,15 +259,14 @@ export default {
 }
 
 .like:hover .like-icon, .dislike:hover .dislike-icon {
-  transform: scale(1.2);  /* Увеличение иконок при наведении */
-  color: #0056b3;  /* Изменение цвета иконки при наведении */
+  transform: scale(1.2);
+  color: #0056b3;
 }
 
 .like-count, .dislike-count {
   font-weight: bold;
 }
 
-/* Стиль для пагинации */
 .pagination {
   display: flex;
   justify-content: flex-end;

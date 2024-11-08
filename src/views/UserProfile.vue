@@ -1,7 +1,6 @@
 <template>
   <div>
     <h1>User Profile</h1>
-    <!-- Content for Civic Initiatives Page -->
   </div>
 </template>
 
@@ -12,5 +11,4 @@ export default {
 </script>
 
 <style scoped>
-/* Add your styles here */
 </style>
